@@ -57,7 +57,7 @@ uv run pi-trace-sanitizer --dry-run session.jsonl
 uv run pi-trace-sanitizer -q session.jsonl
 ```
 
-### Use with pi-share-hf
+### Use with [pi-share-hf](https://github.com/badlogic/pi-share-hf)
 
 Slot it in between `collect` (secret redaction + TruffleHog) and `review` (cloud LLM shareability check):
 
